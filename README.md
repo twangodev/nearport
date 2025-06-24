@@ -28,7 +28,7 @@ To modify the ICAO and Callsign resolution, you can place fields within the `kno
 Finally, run the application:
 
 ```bash
-uv run start
+uv run main.py
 ```
 
 By default, you’ll see live traffic logged in your console around Kahului (OGG); tweak your lat/lon/radius or add more airports in `.env` or a custom config file.

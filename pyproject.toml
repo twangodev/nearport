@@ -1,0 +1,13 @@
+[project]
+name = "nearport"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "coloredlogs>=15.0.1",
+    "geomag>=0.9.2015",
+    "pyproj>=3.7.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "shapely>=2.1.1",
+]
